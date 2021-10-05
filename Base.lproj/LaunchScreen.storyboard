@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arkaplan" translatesAutoresizingMaskIntoConstraints="NO" id="cxy-JA-glu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transparant" translatesAutoresizingMaskIntoConstraints="NO" id="Fb8-mv-fWD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo3" translatesAutoresizingMaskIntoConstraints="NO" id="kc9-bs-hq3">
+                                <rect key="frame" x="113" y="118" width="188" height="185"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="185" id="Djj-nx-8wm"/>
+                                    <constraint firstAttribute="width" constant="188" id="gJ7-XA-kf4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yükleniyor..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z21-aZ-fvH">
+                                <rect key="frame" x="10" y="283" width="394" height="36"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="26"/>
+                                <color key="textColor" red="0.91372549020000005" green="0.42352941179999998" blue="0.4941176471" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Fb8-mv-fWD" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="9cc-l7-5hw"/>
+                            <constraint firstItem="Fb8-mv-fWD" firstAttribute="top" secondItem="cxy-JA-glu" secondAttribute="top" id="EUB-dx-mSY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Z21-aZ-fvH" secondAttribute="trailing" constant="10" id="Eyo-3p-tjU"/>
+                            <constraint firstItem="Z21-aZ-fvH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="OKY-kF-hLu"/>
+                            <constraint firstItem="Fb8-mv-fWD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="YC9-7f-hmu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kc9-bs-hq3" secondAttribute="trailing" constant="113" id="Yof-NB-IJi"/>
+                            <constraint firstItem="Fb8-mv-fWD" firstAttribute="trailing" secondItem="cxy-JA-glu" secondAttribute="trailing" id="Yyo-ij-6Iy"/>
+                            <constraint firstItem="kc9-bs-hq3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="74" id="e2a-uA-JVq"/>
+                            <constraint firstItem="kc9-bs-hq3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="jKy-AJ-VvN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Z21-aZ-fvH" secondAttribute="trailing" constant="10" id="joL-wp-KbF"/>
+                            <constraint firstItem="Fb8-mv-fWD" firstAttribute="leading" secondItem="cxy-JA-glu" secondAttribute="leading" id="m1n-DW-kyj"/>
+                            <constraint firstItem="Fb8-mv-fWD" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-44" id="mnq-BY-IXL"/>
+                            <constraint firstItem="Fb8-mv-fWD" firstAttribute="bottom" secondItem="cxy-JA-glu" secondAttribute="bottom" id="oAh-sC-6mC"/>
+                            <constraint firstItem="Fb8-mv-fWD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pQE-Fr-Rf4"/>
+                            <constraint firstItem="Z21-aZ-fvH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="239" id="vOW-zC-ErX"/>
+                            <constraint firstItem="Z21-aZ-fvH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="wY8-Fe-OSa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arkaplan" width="1422" height="3072"/>
+        <image name="logo3" width="1024" height="1024"/>
+        <image name="transparant" width="1242" height="2688"/>
+    </resources>
+</document>
